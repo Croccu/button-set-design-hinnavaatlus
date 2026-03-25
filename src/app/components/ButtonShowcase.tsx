@@ -10,7 +10,7 @@ export function ButtonShowcase() {
       <section className="bg-[#2d3748] rounded-xl p-8">
         <h2 className="text-2xl font-bold text-white mb-6">Primary Buttons</h2>
         <p className="text-gray-400 mb-8">Used for main call-to-action elements like "Register" or "Submit"</p>
-        
+
         <div className="space-y-8">
           {/* Size Variants */}
           <div>
@@ -37,8 +37,8 @@ export function ButtonShowcase() {
               </div>
               <div>
                 <p className="text-sm text-gray-400 mb-3">Pressed/Active</p>
-                <Button 
-                  variant="primary" 
+                <Button
+                  variant="primary"
                   isActive={activeButton === 'primary-active'}
                   onMouseDown={() => setActiveButton('primary-active')}
                   onMouseUp={() => setActiveButton(null)}
@@ -61,7 +61,7 @@ export function ButtonShowcase() {
       <section className="bg-[#2d3748] rounded-xl p-8">
         <h2 className="text-2xl font-bold text-white mb-6">Secondary Buttons</h2>
         <p className="text-gray-400 mb-8">Used for secondary actions with bordered outline style</p>
-        
+
         <div className="space-y-8">
           {/* Size Variants */}
           <div>
@@ -88,7 +88,7 @@ export function ButtonShowcase() {
               </div>
               <div>
                 <p className="text-sm text-gray-400 mb-3">Pressed/Active</p>
-                <Button 
+                <Button
                   variant="secondary"
                   isActive={activeButton === 'secondary-active'}
                   onMouseDown={() => setActiveButton('secondary-active')}
@@ -112,7 +112,7 @@ export function ButtonShowcase() {
       <section className="bg-[#2d3748] rounded-xl p-8">
         <h2 className="text-2xl font-bold text-white mb-6">Ghost/Tertiary Buttons</h2>
         <p className="text-gray-400 mb-8">Used for subtle actions like "Cancel" or tertiary navigation</p>
-        
+
         <div className="space-y-8">
           {/* Size Variants */}
           <div>
@@ -139,7 +139,7 @@ export function ButtonShowcase() {
               </div>
               <div>
                 <p className="text-sm text-gray-400 mb-3">Pressed/Active</p>
-                <Button 
+                <Button
                   variant="ghost"
                   isActive={activeButton === 'ghost-active'}
                   onMouseDown={() => setActiveButton('ghost-active')}
@@ -162,7 +162,7 @@ export function ButtonShowcase() {
       {/* Usage Examples */}
       <section className="bg-[#2d3748] rounded-xl p-8">
         <h2 className="text-2xl font-bold text-white mb-6">Usage Examples</h2>
-        
+
         <div className="space-y-8">
           {/* Form Example */}
           <div className="bg-[#1a202c] rounded-lg p-6">
